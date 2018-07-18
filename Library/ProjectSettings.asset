@@ -701,7 +701,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: e47060d3-ef11-4ac4-b106-c2821ea61a45
-  projectName: 
+  projectName: VREscapeRoom
   organizationId: yetimark
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
