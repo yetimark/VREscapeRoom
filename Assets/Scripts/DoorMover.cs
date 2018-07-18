@@ -8,10 +8,11 @@ public class DoorMover : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.name == "Key1")
+        if(other.gameObject.name == "Key")
         {
             Debug.Log("The key has hit the door!");
-            this.gameObject.transform.Rotate(0, 90, 0);
+            Debug.Log(this.gameObject.name);
+            this.gameObject.transform.parent.transform.Rotate(0, 90, 0);
         }
     }
 

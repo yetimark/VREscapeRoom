@@ -68,7 +68,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 96
+  controlID: 116
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,10 +275,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -512
-    m_HBaseRangeMax: 512
-    m_VBaseRangeMin: -384
-    m_VBaseRangeMax: 384
+    m_HBaseRangeMin: -782
+    m_HBaseRangeMax: 782
+    m_VBaseRangeMin: -499
+    m_VBaseRangeMax: 499
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -343,14 +343,14 @@ MonoBehaviour:
     height: 1015
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 6568.288465404336
+  lastFramingTime: 33.43308099035476
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.3370385, y: 2.5129938, z: -3.7327232}
+    m_Target: {x: -2.921412, y: 1.8373809, z: -0.21915781}
     speed: 2
-    m_Value: {x: -3.3370385, y: 2.5129938, z: -3.7327232}
+    m_Value: {x: -2.921412, y: 1.8373809, z: -0.21915781}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -378,13 +378,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.017013635, y: 0.94763273, z: -0.051223986, w: 0.3147678}
+    m_Target: {x: -0.061896805, y: 0.7110649, z: -0.063094616, w: -0.6975491}
     speed: 2
-    m_Value: {x: 0.017013637, y: 0.9476328, z: -0.05122399, w: 0.31476784}
+    m_Value: {x: -0.061896805, y: 0.7110649, z: -0.063094616, w: -0.6975491}
   m_Size:
-    m_Target: 1.2569275
+    m_Target: 6.9490047
     speed: 2
-    m_Value: 1.2569275
+    m_Value: 6.9490047
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -448,9 +448,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8495fcff
-    m_LastClickedID: -223868
-    m_ExpandedIDs: 58d2fdff5a2efeff5c2efeff5231feff0000000044800000
+    m_SelectedIDs: 44440000
+    m_LastClickedID: 17476
+    m_ExpandedIDs: f0fbffff000000000c44000044440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,20 +511,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\litma\OneDrive\Documents\GitHub\VREscapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: c6720000
-    m_LastClickedID: 29382
-    m_ExpandedIDs: 00000000c6720000ce750000da760000de770000347a0000287f00002a7f0000727f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 343}
+    m_SelectedIDs: 38420000
+    m_LastClickedID: 16952
+    m_ExpandedIDs: 000000003c2a0000643000005432000064340000c83800001e42000028420000b042000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6720000ce750000da760000de770000347a0000287f00002a7f0000727f0000
+    m_ExpandedIDs: 000000003c2a0000643000005432000064340000c83800001e42000028420000b0420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,9 +577,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 00800000
-    m_LastClickedInstanceID: 32768
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 44440000
+    m_LastClickedInstanceID: 17476
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d25d0000f02d00003429000062080000fa2a0000522c000032d7000038320000b40b0000247500000411fcffba2e0000063200000a320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1215332
+  m_LastSelectedObjectID: 17476
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
