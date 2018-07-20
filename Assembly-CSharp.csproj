@@ -108,9 +108,11 @@
     <Compile Include="Assets\NaturalLocomotion\Scripts\Movements\TranslationMovement.cs" />
     <Compile Include="Assets\NaturalLocomotion\Scripts\NaturalInput.cs" />
     <Compile Include="Assets\Scripts\bookshelfMover.cs" />
+    <Compile Include="Assets\Scripts\Chestthing.cs" />
     <Compile Include="Assets\Scripts\DefenceStick.cs" />
     <Compile Include="Assets\Scripts\DoorMover.cs" />
     <Compile Include="Assets\Scripts\PlayerDrive.cs" />
+    <Compile Include="Assets\Scripts\ReturnPlayer.cs" />
     <Compile Include="Assets\Scripts\TeleporterStart.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

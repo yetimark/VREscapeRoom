@@ -2,12 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeleporterStart : MonoBehaviour {
+public class TeleporterStart : MonoBehaviour
+{
 
     public Transform destination;       //empty gameObject for positioning
+    private Vector3 home;
 
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        other.gameObject.transform.position = this.destination.position;
+        this.home = this.gameObject.transform.position;
+    }
+
+    private void Update()
+    {
+        if(this.transform.position != this.home)
+        {
+            GameObject.FindGameObjectWithTag("Player").transform.position = this.destination.position;
+        }
     }
 }

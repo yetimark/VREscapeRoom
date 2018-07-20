@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Beast
+  - projectile
+  - FxTemporaire
+  - awesome
   layers:
   - Default
   - TransparentFX

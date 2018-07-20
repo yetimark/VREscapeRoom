@@ -9,6 +9,8 @@ public class DoorMover : MonoBehaviour
     public bool go = false;
     public Transform startRotation;
     public Transform targetRotation;
+    public GameObject opener;
+    public GameObject opener2;
 
     void ObjectLerp()
     {
@@ -17,7 +19,8 @@ public class DoorMover : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "SecretBook")
+        if (other.gameObject == this.opener ||
+            other.gameObject == this.opener2)
         {
             this.go = true;
         }

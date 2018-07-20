@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DefenceStick : MonoBehaviour {
+public class DefenceStick : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Beast")         //be sure to tag enemy animals as "beast" 
+                                                     //also make a prefab of beasts so they can be respawned in if a player has failed game
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }
