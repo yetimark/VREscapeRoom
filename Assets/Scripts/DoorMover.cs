@@ -4,16 +4,30 @@ using UnityEngine;
 
 public class DoorMover : MonoBehaviour
 {
+    public float speed = 1f;
+    
+    public bool go = false;
+    public Transform startRotation;
+    public Transform targetRotation;
 
-
-    private void OnCollisionEnter(Collision other)
+    void ObjectLerp()
     {
-        if(other.gameObject.name == "Key")
+        this.gameObject.transform.rotation = Quaternion.Lerp(this.startRotation.rotation, this.targetRotation.rotation, Time.deltaTime * this.speed);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "SecretBook")
         {
-            Debug.Log("The key has hit the door!");
-            Debug.Log(this.gameObject.name);
-            this.gameObject.transform.parent.transform.Rotate(0, 90, 0);
+            this.go = true;
         }
     }
 
+    private void Update()
+    {
+        if (this.go)
+        {
+            ObjectLerp();
+        }
+    }
 }
