@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -68,7 +68,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 133
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,14 +343,14 @@ MonoBehaviour:
     height: 827
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 11287.821147042254
+  lastFramingTime: 42.188169615023476
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.953629, y: 4.5380282, z: -9.701113}
+    m_Target: {x: 35.588737, y: 6.0992327, z: -4.5579147}
     speed: 2
-    m_Value: {x: 13.953629, y: 4.5380282, z: -9.701113}
+    m_Value: {x: 35.588737, y: 6.0992327, z: -4.5579147}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -378,13 +378,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.011538859, y: -0.97154105, z: 0.23158453, w: -0.048409525}
+    m_Target: {x: -0.07692736, y: 0.6964076, z: -0.07550666, w: -0.7095051}
     speed: 2
-    m_Value: {x: 0.01153886, y: 0.9715411, z: -0.23158455, w: 0.048409525}
+    m_Value: {x: -0.07692736, y: 0.6964076, z: -0.07550666, w: -0.7095051}
   m_Size:
-    m_Target: 86.30776
+    m_Target: 22
     speed: 2
-    m_Value: 86.30776
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -453,18 +453,18 @@ MonoBehaviour:
     m_ExpandedIDs: f0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: GameObject
+      m_OriginalName: GameObject
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11268
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
